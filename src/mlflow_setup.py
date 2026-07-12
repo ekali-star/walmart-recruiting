@@ -14,4 +14,4 @@ def init_tracking():
 
     os.environ["MLFLOW_TRACKING_USERNAME"] = username
     os.environ["MLFLOW_TRACKING_PASSWORD"] = token
-    mlflow.set_tracking_uri(f"https://dagshub.com/{username}/walmart-recruiting.mlflow")
+    mlflow.set_tracking_uri(f"https://dagshub.com/ekali-star/walmart-recruiting.mlflow")
